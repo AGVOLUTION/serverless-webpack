@@ -1,5 +1,5 @@
 {
-  "name": "serverless-webpack",
+  "name": "@agvolution/serverless-webpack",
   "version": "5.5.1",
   "description": "Serverless plugin to bundle your javascript with Webpack",
   "main": "index.js",
@@ -7,7 +7,11 @@
   "author": "Frank Schmid <fschmid740@googlemail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/serverless-heaven/serverless-webpack.git"
+    "url": "git@github.com:AGVOLUTION/serverless-webpack.git"
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "serverless",
